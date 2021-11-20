@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: var(--color-one);
+}
+
+:root{
+    /* Colors primary */
+    --color-one: hsl(225, 100%, 94%);
+    --color-two: hsl(245, 75%, 52%);
+    --color-three: hsl(0, 0%, 100%);
+    /* Colors neutral */
+    --color-one-neutral: hsl(225, 100%, 98%);
+    --color-two-neutral: hsl(224, 23%, 55%);
+    --color-three-neutral: hsl(223, 47%, 23%);
+}
+
+main{
+    max-width: min-content;
+    display: grid;
+    margin: 1% auto;
+}
+
+img{
+    border-radius: 15px 15px 0 0;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    padding: 1rem 2.5rem;
+    background-color: var(--color-three);
+    border-radius: 0 0 15px 15px;
+}
+
+.container p, h2{
+    text-align: center;
+}
+
+p{
+    color: var(--color-two-neutral);
+    margin: 1rem 0;
+}
+
+.container-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: var(--color-one-neutral);
+}
+
+.container-player a{
+    color: var(--color-two);
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    margin: 2rem 0 0;
+    border-radius: 10px;
+    padding: 1rem 0;
+    border: none;
+    background-color: transparent;
+}
+
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#btn-payment{
+    font-weight: 800;
+    box-shadow: 0 8px 40px 0 var(--color-two-neutral);
+    color: var(--color-three);
+    background-color: var(--color-two);
+}
