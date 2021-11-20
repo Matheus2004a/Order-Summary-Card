@@ -1,5 +1,7 @@
 # Frontend Mentor - Order summary card
 
+## Screenshots 📷
+
 - Desktop Design
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-design.png)
