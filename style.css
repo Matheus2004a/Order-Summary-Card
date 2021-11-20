@@ -18,6 +18,11 @@
     --color-three-neutral: hsl(223, 47%, 23%);
 }
 
+body{
+    background: var(--color-one) url(images/pattern-background-mobile.svg) no-repeat center top;
+    background-size: contain;
+}
+
 main{
     max-width: min-content;
     display: grid;
@@ -48,10 +53,10 @@ p{
 }
 
 .container-player{
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 60% 0%;
     align-items: center;
-    gap: 1rem;
     border-radius: 10px;
     padding: 1rem;
     margin-top: 2rem;
@@ -60,6 +65,10 @@ p{
 
 .container-player a{
     color: var(--color-two);
+}
+
+span p{
+    margin: 0;
 }
 
 a{
