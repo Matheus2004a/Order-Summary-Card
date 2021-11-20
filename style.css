@@ -33,8 +33,7 @@ main{
 .illustration{
     width: 100%;
     height: 15rem;
-    background: url(images/illustration-hero.svg) no-repeat;
-    background-position: center;
+    background: url(images/illustration-hero.svg) no-repeat center;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
@@ -53,12 +52,12 @@ p{
 }
 
 .container-player{
-    width: 100%;
+    width: 22rem;
     display: grid;
-    grid-template-columns: 30% 60% 0%;
+    grid-template-columns: 20% 35% 65%;
     align-items: center;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     margin-top: 2rem;
     background-color: var(--color-one-neutral);
 }
@@ -76,11 +75,13 @@ a{
 }
 
 button{
+    font-size: 1rem;
     margin: 2rem 0 0;
     border-radius: 10px;
     padding: 1rem 0;
     border: none;
     background-color: transparent;
+    transition: 0.5s;
 }
 
 button:hover{
@@ -93,4 +94,9 @@ button:hover{
     box-shadow: 0 8px 40px 0 var(--color-two-neutral);
     color: var(--color-three);
     background-color: var(--color-two);
+}
+
+#btn-cancel{
+    font-weight: bold;
+    color: var(--color-two-neutral);
 }
