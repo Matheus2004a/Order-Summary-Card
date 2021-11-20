@@ -62,17 +62,16 @@ p{
     background-color: var(--color-one-neutral);
 }
 
-.container-player a{
+a{
+    text-decoration: none;
     color: var(--color-two);
+    font-weight: bold;
 }
 
 span p{
     margin: 0;
 }
 
-a{
-    text-decoration: none;
-}
 
 button{
     font-size: 1rem;
@@ -96,7 +95,11 @@ button:hover{
     background-color: var(--color-two);
 }
 
-#btn-cancel{
+#btn-cancel,#description a{
     font-weight: bold;
     color: var(--color-two-neutral);
+}
+
+#description{
+    color: #000;
 }
